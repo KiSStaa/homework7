@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    background-color: #ffffff;
+    width: 100%;
+}
+.logo{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-right: 144px;
+    padding-top: 60px;
+    padding-left: 82px;
+}
+.navbar{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 60px 84px;
+}
+.navbar li{
+    display: inline-block;
+    padding: 5px 70px;
+}
+.navbar a{
+    color: #000000;
+    position: relative;
+}
+.navbar a::before{
+    content: "";
+    width: 0;
+    height: 2px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 2s;
+}
+.navbar a:hover:before{
+    width: 100%;
+}
+.fa-toggle-off-icon{
+    font-size: 26px;
+    padding-top: 64px;
+    margin-right: 102px;
+}
+.order{
+    width: 180px;
+    height: 60px;
+    padding: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #FDC72D;
+    border-radius: 50px;
+    margin: 44px auto;
+    text-align: center;
+    cursor: pointer;
+}
+.indexmain{
+    display: flex;
+    align-items: center;
+}
+.indexmain section{
+    width: 466px;
+    margin-left: 80px;
+}
+.secsatauri{
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 36px;
+}
+.secteksti{
+    width: 394px;
+    color: #777776;
+    font-size: 20px;
+    padding-bottom: 52px;
+}
+.secstart{
+    width: 180px;
+    padding: 16px 32px;
+    background-color: #FDC72D;
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.indexmain div img{
+    width: 870px;
+    height: 722px;
+}
+
+
+/* ------------about us------------- */
+
+.aboutusmain{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.aboutphoto1 img{
+    width: 776px;
+    height: 506px;
+    margin-left: 78px;
+}
+.secabout{
+    width: 512px;
+    margin-left: 100px;
+}
+.aboutsatauri{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+.aboutteksti{
+    width: 512px;
+    color: #777776;
+    font-size: 20px;
+}
+.secabout1{
+    width: 502px;
+    margin-left: 96px;
+}
+.aboutsatauri1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 44px;
+}
+.aboutteksti1{
+    width: 502px;
+    color: #777776;
+    font-size: 20px;
+}
+.aboutphoto2{
+    width: 744px;
+    height: 492px;
+}
